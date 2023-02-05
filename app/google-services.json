@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263656437087",
+    "project_id": "olx-apps-5c27f",
+    "storage_bucket": "olx-apps-5c27f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263656437087:android:2af1804e78d60108d932ea",
+        "android_client_info": {
+          "package_name": "com.example.manus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263656437087-oiisc0vpkgj9dfn93slu9kgrfpd34hma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manus",
+            "certificate_hash": "8d1016c6362bffee31705cec487888642de4d798"
+          }
+        },
+        {
+          "client_id": "263656437087-8d2f6p1ss0l7s7upg9k02udbp5num5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5h3Hqe5FeAIHICNueDVYpKXMUHLWCBX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263656437087-8d2f6p1ss0l7s7upg9k02udbp5num5o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
