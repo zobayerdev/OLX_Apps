@@ -15,8 +15,9 @@
         android:theme="@style/Theme.Manus"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".LoginPhoneActivity"
+            android:exported="false" />
         <activity
             android:name=".RegisterEmailActivity"
             android:exported="false" />

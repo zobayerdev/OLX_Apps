@@ -122,6 +122,7 @@ public class RegisterEmailActivity extends AppCompatActivity {
         progressDialog.setMessage("Saving User Info");
 
 
+        //get current timestamp, to show user registration date/time
         long timestamp = Utils.getTimestamp();
         String registerUserEmail = firebaseAuth.getCurrentUser().getEmail();
         String registerUserUid = firebaseAuth.getUid();
@@ -137,6 +138,7 @@ public class RegisterEmailActivity extends AppCompatActivity {
         hashMap.put("timestamp", timestamp);
         hashMap.put("onlineStatus", true);
         hashMap.put("email", registerUserEmail);
+        hashMap.put("password", password);
         hashMap.put("uid", registerUserUid);
 
 
