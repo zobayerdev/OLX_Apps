@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="15dp"
     tools:context=".MyAdsFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -11,6 +12,8 @@
         android:layout_height="match_parent"
         android:text="My Ads"
         android:textColor="@color/black"
+        android:fontFamily="@font/trebuc"
+        android:textStyle="bold"
         android:textSize="18sp" />
 
 </FrameLayout>

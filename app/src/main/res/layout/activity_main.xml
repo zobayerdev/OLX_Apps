@@ -16,9 +16,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:fontFamily="@font/ubuntu_medium"
             android:text="Home"
             android:textColor="@color/black"
+            android:fontFamily="@font/trebuc"
+            android:textStyle="bold"
             android:textSize="18sp" />
 
         <View

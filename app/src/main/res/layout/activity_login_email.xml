@@ -15,10 +15,10 @@
             android:id="@+id/toolbarBackBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_back"
-            android:padding="10dp"
             android:layout_centerVertical="true"
             android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"
             tools:ignore="ContentDescription" />
 
 
@@ -27,24 +27,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Login"
             android:fontFamily="@font/ubuntu_medium"
-            android:textSize="18sp"
+            android:text="Login"
             android:textColor="@color/black"
-            />
+            android:textSize="18sp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_alignParentBottom="true"
-            android:background="@color/colorGray02"/>
+            android:background="@color/colorGray02" />
 
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_below="@+id/toolbarRl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarRl"
         android:layout_margin="5dp"
         android:padding="10dp">
 
@@ -55,65 +54,64 @@
             android:layout_centerHorizontal="true"
             android:background="@color/colorGray01"
             android:src="@drawable/ic_person_white"
-            app:shapeAppearanceOverlay="@style/ImageStyle_Circle"/>
+            app:shapeAppearanceOverlay="@style/ImageStyle_Circle" />
 
 
         <TextView
             android:id="@+id/loginLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Login To Your Account"
             android:layout_below="@+id/profileIv"
-            android:textSize="18sp"
-            android:fontFamily="@font/ubuntu_medium"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Login To Your Account"
             android:textColor="@color/black"
-            />
+            android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/emailTil"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/loginLabel"
             android:layout_marginTop="10dp"
-            app:boxCornerRadiusTopEnd="8dp"
+            android:hint="Email"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusTopStart="8dp"
-            app:startIconDrawable="@drawable/ic_email_white"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:hint="Email">
+            app:startIconDrawable="@drawable/ic_email_white">
 
             <EditText
                 android:id="@+id/emailEt"
                 android:layout_width="match_parent"
-                android:inputType="textEmailAddress"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passwordTil"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/emailTil"
             android:layout_marginTop="10dp"
-            app:boxCornerRadiusTopEnd="8dp"
+            android:hint="Password"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusTopStart="8dp"
-            app:startIconDrawable="@drawable/ic_email_white"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             app:passwordToggleEnabled="true"
-            android:hint="Password">
+            app:startIconDrawable="@drawable/ic_email_white">
 
             <EditText
                 android:id="@+id/passwordEt"
                 android:layout_width="match_parent"
-                android:inputType="textPassword"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -123,23 +121,20 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/passwordTil"
             android:layout_marginTop="5dp"
-            android:textColor="@color/black"
             android:fontFamily="@font/ubuntu_medium"
-            android:text="@string/not_have_an_account_register" />
+            android:text="@string/not_have_an_account_register"
+            android:textColor="@color/black" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/loginBtn"
-            android:text="Login"
-            android:textAllCaps="false"
-            android:fontFamily="@font/ubuntu_medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:fontFamily="@font/ubuntu_medium"
             android:minHeight="@dimen/m_button_height"
-            app:cornerRadius="8dp"
-            />
-
-
+            android:text="Login"
+            android:textAllCaps="false"
+            app:cornerRadius="8dp" />
 
     </RelativeLayout>
 
